@@ -1,0 +1,48 @@
+/* navigation item */
+.navigation-item {
+    position: relative;
+}
+/* end of navigation item */
+
+/* navigation link */
+.navigation-link {
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+.navigation-link::before {
+    content: '';
+    width: 0rem;
+    height: 0.1rem;
+    background-color: #deaa86;
+    position: absolute;
+    top: 1rem;
+    left: -4rem;
+    transition: width 0.5s cubic-bezier(1, 0, 0, 1);
+}
+
+.navigation-link::after {
+    content: '';
+    width: 0rem;
+    height: 0.1rem;
+    background-color: #deaa86;
+    position: absolute;
+    top: 1rem;
+    right: -4rem;
+    transition: width 0.5s cubic-bezier(1, 0, 0, 1);
+}
+
+.navigation-link:hover {
+    color: #deaa86;
+}
+
+.navigation-link:hover::before,
+.navigation-link:hover::after {
+    width: 3rem;
+}
+/* end of navigation link  */

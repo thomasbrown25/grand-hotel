@@ -1,0 +1,42 @@
+/* navigation search */
+.navigation-search {
+    position: relative;
+}
+/* end of navigation search */
+
+/* navigation search input */
+.navigation-search-input {
+    width: 30rem;
+    padding: 1rem 2rem;
+    background-color: rgba(0, 0, 0, 0.3);
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.6rem;
+    color: #deaa86;
+    letter-spacing: 0.1rem;
+    outline: none;
+    border: 0.1rem solid #555;
+    border-radius: 10rem;
+    transition: background-color 0.3s;
+}
+
+.navigation-search-input:focus {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+/* end of navigation search input */
+
+/* navigation search button */
+.navigation-search-btn {
+    border: none;
+    background-color: transparent;
+    color: #deaa86;
+    font-size: 1.7rem;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    cursor: pointer;
+}
+
+.navigation-search-btn:focus {
+    outline: none;
+}
+/* end of navigation search button */

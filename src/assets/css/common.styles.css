@@ -1,0 +1,54 @@
+/* underline */
+.small-underline {
+    width: 9rem;
+    height: 0.1rem;
+    margin: 0 auto 1rem auto;
+    background-color: #b85d1c;
+}
+
+.big-underline {
+    width: 20rem;
+    height: 0.1rem;
+    margin: auto;
+    background-color: #b85d1c;
+}
+/* end of underline */
+
+/* buttons */
+.btn {
+    width: 15rem;
+    padding: 0.7rem 0.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    color: #b85d1c;
+    background-color: transparent;
+    border: 0.1rem solid #b85d1c;
+    outline: none;
+    cursor: pointer;
+}
+
+.btn-arrow {
+    margin-left: 0.5rem;
+    transition: margin-left 0.4s;
+}
+
+.about-us-btn:hover .btn-arrow {
+    margin-left: 1.5rem;
+}
+
+/* end of buttons */
+
+/* common header */
+.common-header {
+    padding: 5rem;
+    text-align: center;
+    color: #b85d1c;
+}
+
+.common-heading {
+    font-size: 4rem;
+    font-weight: 300;
+    letter-spacing: 0.2rem;
+}
+/* end of common header */

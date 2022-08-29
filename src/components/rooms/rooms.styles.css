@@ -1,0 +1,11 @@
+/* rooms */
+.rooms {
+    margin-left: 8rem;
+}
+
+.rooms-cards-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+/* end of rooms */

@@ -1,0 +1,37 @@
+/* customer card */
+.customer-card {
+    background-color: #eee;
+    width: 60rem;
+    display: flex;
+}
+
+.customer-image-wrapper {
+    margin: auto 0;
+}
+
+.customer-image {
+    width: 20rem;
+    margin-left: -1.3rem;
+}
+
+.customer-info {
+    padding: 0 2rem;
+}
+
+.customer-fullname {
+    font-size: 2rem;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.customer-paragraph-1 {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #b85d1c;
+}
+
+.customer-paragraph-2 {
+    font-size: 1.3rem;
+    font-style: italic;
+}
+/* end of customer card */

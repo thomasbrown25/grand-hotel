@@ -1,0 +1,25 @@
+.contact p {
+    font-size: 1.5rem;
+    color: #bbb;
+    margin-bottom: 4rem;
+}
+
+.footer-form {
+    display: flex;
+}
+
+.footer-input {
+    width: 25rem;
+    padding: 1rem;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.8rem;
+    color: #444;
+    outline: none;
+}
+
+.footer-btn {
+    padding: 1rem;
+    background-color: #b85d1c;
+    color: #ddd;
+    border: none;
+}

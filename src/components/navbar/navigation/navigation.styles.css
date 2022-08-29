@@ -1,0 +1,31 @@
+/* navigation */
+.navigation {
+    position: fixed;
+    left: -32rem;
+    width: 40rem;
+    height: 100%;
+    background: linear-gradient(
+            to top,
+            rgba(34, 32, 41, 1),
+            rgba(34, 32, 41, 0.8)
+        ),
+        url(../../../assets/img/nav-bg.jpeg) center no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    transition: left 0.8s cubic-bezier(1, 0, 0, 1);
+}
+/* end of navigation */
+
+/* navigation heading */
+.navigation-heading {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 300;
+    letter-spacing: 0.2rem;
+    color: #deaa86;
+    text-align: center;
+}
+/* end of navigation heading */

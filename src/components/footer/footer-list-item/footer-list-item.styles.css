@@ -1,0 +1,9 @@
+.footer-list-item {
+    margin-bottom: 2rem;
+}
+
+.footer-list-link {
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: #bbb;
+}

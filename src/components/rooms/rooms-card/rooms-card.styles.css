@@ -1,0 +1,40 @@
+/* room card */
+.room-card {
+    width: 60rem;
+    margin: 5rem;
+    background-color: #15141b;
+    box-shadow: 0 3rem 6rem rgba(0, 0, 0, 0.3);
+}
+
+.room-img {
+    width: 100%;
+}
+
+.room-card-content {
+    color: #ddd;
+    padding: 2rem;
+}
+
+.room-card-heading {
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.room-card-paragraph {
+    font-size: 1.5rem;
+    color: #777;
+}
+
+.room-price {
+    font-size: 5rem;
+    font-weight: 300;
+    text-align: right;
+    margin: 0;
+}
+
+.room-card-btn {
+    padding: 1.5rem 1rem;
+    border-radius: 10rem;
+}
+/* end of room card */

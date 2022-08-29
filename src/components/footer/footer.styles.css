@@ -1,0 +1,40 @@
+/* footer */
+.footer {
+    margin-left: 8rem;
+}
+
+.main-part {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1c1c1c;
+    padding: 4rem;
+}
+
+.creator-part {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111;
+    padding: 0 4rem;
+}
+
+.copyright-text {
+    font-size: 1.3rem;
+    color: #aaa;
+}
+
+.text-right {
+    font-size: 1.4rem;
+    color: #bbb;
+}
+
+.text-right i {
+    font-size: 2rem;
+    margin: 0.5rem;
+    color: tomato;
+}
+
+.text-right span {
+    color: gold;
+}
+/* end of footer */
