@@ -13,13 +13,13 @@
     font-size: 7rem;
     font-weight: 400;
     margin-bottom: 0;
-    animation: anim 2s;
+    animation: moveInLeft 2s;
 }
 
 .banner-paragraph {
     font-size: 3.5rem;
     font-weight: 300;
-    animation: anim 1.5s 0.5s backwards;
+    animation: moveInRight 1.5s 0.5s backwards;
 }
 
 .banner-btn {
@@ -33,7 +33,7 @@
     outline: none;
     background: linear-gradient(to right, gold, goldenrod);
     cursor: pointer;
-    animation: anim 1s 1s backwards;
+    animation: fadeIn 1s 1s backwards;
 }
 
 .banner-btn:hover {
@@ -44,7 +44,29 @@
     transform: translateY(0.2rem);
 }
 
-@keyframes anim {
+@keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes moveInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
     0% {
         opacity: 0;
     }
