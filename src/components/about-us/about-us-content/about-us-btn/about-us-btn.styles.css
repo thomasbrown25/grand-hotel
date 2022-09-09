@@ -1,12 +1,13 @@
-/* .about-us-btn {
-    width: 15rem;
-    padding: 0.7rem 0.5rem;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 1.2rem;
-    text-transform: uppercase;
-    color: #b85d1c;
-    background-color: transparent;
-    border: 0.1rem solid #b85d1c;
-    outline: none;
-    cursor: pointer;
-} */
+.about-us-btn {
+    transition: all 0.2s;
+}
+
+.about-us-btn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+}
+
+.about-us-btn:active {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
+}

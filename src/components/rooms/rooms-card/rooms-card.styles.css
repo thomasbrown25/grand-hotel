@@ -36,5 +36,16 @@
 .room-card-btn {
     padding: 1.5rem 1rem;
     border-radius: 10rem;
+    transition: all 0.2s;
+}
+
+.room-card-btn:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.room-card-btn:active {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 /* end of room card */

@@ -19,4 +19,11 @@
 .rooms-btn:hover {
     color: #ddd;
     background-color: #b85d1c;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
+}
+
+.rooms-btn:active {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.6);
 }

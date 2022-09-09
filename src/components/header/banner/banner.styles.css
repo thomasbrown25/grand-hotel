@@ -34,14 +34,17 @@
     background: linear-gradient(to right, gold, goldenrod);
     cursor: pointer;
     animation: fadeIn 1s 1s backwards;
+    transition: all 0.2s;
 }
 
 .banner-btn:hover {
-    background: linear-gradient(to left, gold, goldenrod);
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 1);
 }
 
 .banner-btn:active {
-    transform: translateY(0.2rem);
+    transform: translateY(-2px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 1);
 }
 
 @keyframes moveInLeft {
