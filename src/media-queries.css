@@ -33,6 +33,12 @@
     .image {
         width: 25rem;
     }
+    .image-1 {
+        transform: translate(-45%, -95%);
+    }
+    .image-4 {
+        transform: translate(-37%, -30%);
+    }
 }
 
 @media (max-width: 900px) {
